@@ -1,0 +1,111 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  font: normal normal 300 16px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #080808;
+  opacity: 1;
+
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+
+  padding-left: 30px;
+}
+.logo {
+  display: inline-flex;
+  grid-gap: 50px;
+}
+a {
+  text-decoration: none;
+  color: #080808;
+}
+
+.inlinebody {
+  text-align: left;
+  font: normal normal 600 20px/24px Montserrat;
+  color: #f5f5f5;
+  opacity: 1;
+  padding: 20px;
+  width: 240px;
+  height: 100px;
+}
+.Heading {
+  display: inline-flex;
+}
+.drop-down {
+  padding: 5%;
+  margin-left: 550px;
+  display: inline-flex;
+}
+.head + course {
+  display: grid;
+}
+
+.listofcourses {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  width: 1000px;
+  height: 10%;
+
+  display: inline-flex;
+  text-align: left;
+}
+.empty-box {
+  background: black 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 40%;
+}
+.img-course {
+  margin-top: 1%;
+  width: 10%;
+  height: 40%;
+}
+.name {
+  padding-top: 10px;
+  width: 200px;
+  height: 100px;
+}
+.author {
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 7%;
+  padding-right: 3%;
+}
+.tags {
+  display: inline-flex;
+  padding-top: 10px;
+  grid-gap: 10px;
+}
+span {
+  background: #ff6738 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+}
+.add_cart {
+  background: #ff6738 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+  margin-top: 1%;
+  height: 35%;
+  width: 11%;
+  text-align: center;
+}
+.arr {
+  padding-top: 1%;
+  padding-left: 4%;
+}
+.search-checkout {
+  display: inline-flex;
+  margin-top: 16%;
+}
+input[type="text"] {
+  padding: 6px;
+  font-size: 1em;
+}
+.cart_details {
+  margin-top: 2%;
+  border-style: dashed;
+  border-color: midnightblue;
+  background-color: red;
+}
